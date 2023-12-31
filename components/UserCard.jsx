@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import LinkedinAnchor from '@/components/LinkedinAnchor'
+import InstagramAnchor from '@/components/InstagramAnchor'
 
 export default function UserCard() {
   return (
@@ -15,6 +17,10 @@ export default function UserCard() {
       <div className="flex flex-col items-center gap-y-2">
         <h1 className="text-3xl font-bold">Douglas José Barboza</h1>
         <p className="text-lg font-light">Desenvolvedor Frontend</p>
+      </div>
+      <div className="mt-6 flex gap-x-2">
+        <LinkedinAnchor />
+        <InstagramAnchor />
       </div>
     </section>
   )

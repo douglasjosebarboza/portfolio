@@ -36,5 +36,4 @@ main {
 section {
   background-color: var(--background-card);
   box-shadow: var(--shadow-card);
-  height: 400px;
 }
