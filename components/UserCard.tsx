@@ -11,7 +11,7 @@ export default function UserCard() {
           src="/profile.jpg"
           width={500}
           height={500}
-          alt="Picture of the author"
+          alt="Foto de perfil"
         />
       </picture>
       <div className="flex flex-col items-center gap-y-2">
