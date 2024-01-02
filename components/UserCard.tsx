@@ -5,7 +5,7 @@ import InstagramAnchor from '@/components/InstagramAnchor'
 export default function UserCard() {
   return (
     <section className="flex flex-col items-center gap-y-3 py-0 pb-10 pt-0">
-      <picture className="shadow-image mt-[-104px] h-52 w-52 rounded-xl">
+      <picture className="mt-[-104px] h-52 w-52 rounded-xl shadow-image">
         <Image
           className="h-full w-full rounded-xl object-cover"
           src="/profile.jpg"
