@@ -5,8 +5,29 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio de Douglas José Barboza',
-  description: 'Portfolio de Douglas',
+  title: 'Portfólio de Douglas José Barboza',
+  description:
+    'Olá, meu nome é Douglas, estou cursando bacharelado em Ciência da Computação na Universidade Federal de São João del Rei. Sou entusiasta do universo da programação, buscando constantemente aprimorar meus conhecimentos, especialmente em tecnologias de frontend.',
+  openGraph: {
+    type: 'website',
+    url: 'https://douglasjosebarboza.vercel.app/',
+    title: 'Portfólio de Douglas José Barboza',
+    description:
+      'Olá, meu nome é Douglas, estou cursando bacharelado em Ciência da Computação na Universidade Federal de São João del Rei. Sou entusiasta do universo da programação, buscando constantemente aprimorar meus conhecimentos, especialmente em tecnologias de frontend.',
+    images: {
+      url: '/portfolio.png',
+    },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: 'https://douglasjosebarboza.vercel.app/',
+    title: 'Portfólio de Douglas José Barboza',
+    description:
+      'Olá, meu nome é Douglas, estou cursando bacharelado em Ciência da Computação na Universidade Federal de São João del Rei. Sou entusiasta do universo da programação, buscando constantemente aprimorar meus conhecimentos, especialmente em tecnologias de frontend.',
+    images: {
+      url: '/portfolio.png',
+    },
+  },
 }
 
 export default function RootLayout({
