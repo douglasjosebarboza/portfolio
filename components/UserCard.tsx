@@ -5,7 +5,12 @@ import GithubAnchor from './GithubAnchor'
 
 export default function UserCard() {
   return (
-    <section className="col-span-3 flex flex-col items-center gap-y-3 py-0 pb-10 pt-0 lg:col-span-1">
+    <section
+      className="col-span-3 flex flex-col items-center gap-y-3 py-0 pb-10 pt-0 lg:col-span-1"
+      data-aos="fade-right"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+    >
       <picture className="mt-[-104px] h-52 w-52 rounded-xl shadow-image">
         <Image
           className="h-full w-full rounded-xl object-cover"
