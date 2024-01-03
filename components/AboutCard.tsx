@@ -19,7 +19,7 @@ export default function AboutCard() {
   }
   const idadeAtual = calcularIdade('2000-12-22')
   return (
-    <section className="p-8 text-base font-light">
+    <section className="col-span-3 p-8 text-base font-light lg:col-span-2">
       <Subtitle name={'Sobre'} />
       <p className="mt-3 text-justify">
         {`Olá, meu nome é Douglas, tenho ${idadeAtual} e estou cursando bacharelado em Ciência da Computação na Universidade Federal de São João del Rei. Sou entusiasta do universo da programação, buscando constantemente aprimorar meus conhecimentos, especialmente em tecnologias de frontend. Possuo conhecimento das seguintes tecnologias:`}

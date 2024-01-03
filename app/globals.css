@@ -29,10 +29,6 @@ body {
   font: 800 16px;
 }
 
-main {
-  grid-template-columns: 460px 1fr;
-}
-
 section {
   background-color: var(--background-card);
   box-shadow: var(--shadow-card);
