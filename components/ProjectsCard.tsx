@@ -1,16 +1,22 @@
 import Subtitle from '@/components/Subtitle'
 import Project from './Project'
+import Projects from '@/database/projects.json'
 
 export default function ProjectsCard() {
+  const data = Projects
   return (
     <section className="col-span-2 mt-4 gap-8 px-10 py-8">
       <Subtitle name="Projetos" />
       <div className="mt-4 grid grid-cols-3 gap-8">
-        <Project
-          src="/animelix.png"
-          name="AnimeLix"
-          spans={['HTML', 'CSS', 'Javascript', 'API Externa']}
-        />
+        {data.map((project) => (
+          <Project
+            key={project.name}
+            src={project.image}
+            name={project.name}
+            tags={project.tags}
+            link={project.link}
+          />
+        ))}
       </div>
     </section>
   )

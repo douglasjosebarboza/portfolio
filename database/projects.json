@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AnimeLix",
+    "image": "/animelix.png",
+    "tags": ["Next JS", "Tailwild CSS", "API Externa", "Sistema de Contas"],
+    "link": "https://github.com/douglasjosebarboza/animelix-next"
+  },
+  {
+    "name": "Gelateria",
+    "image": "/gelateria.png",
+    "tags": ["React JS", "CSS", "Paginação", "Resposividade"],
+    "link": "https://github.com/douglasjosebarboza/gelateria"
+  },
+  {
+    "name": "Barber Shop",
+    "image": "/barber-shop.png",
+    "tags": ["React JS", "CSS", "Dark Mode"],
+    "link": "https://github.com/douglasjosebarboza/barber-shop"
+  },
+  {
+    "name": "Óticas Vida",
+    "image": "/oticas-vida.png",
+    "tags": ["React JS", "CSS", "Resposividade"],
+    "link": "https://github.com/douglasjosebarboza/loja-oculos"
+  },
+  {
+    "name": "Agência de Viagens",
+    "image": "/agencia-viagens.png",
+    "tags": ["HTML", "CSS", "Formulário"],
+    "link": "https://github.com/douglasjosebarboza/agencia-de-viagens"
+  },
+  {
+    "name": "Clínica Médica Life",
+    "image": "/cm-life.png",
+    "tags": ["HTML",  "CSS", "Paginação", "Resposividade"],
+    "link": "https://github.com/douglasjosebarboza/clinica-life"
+  },
+  {
+    "name": "Alfa Tech",
+    "image": "/alfa-tech.png",
+    "tags": ["HTML",  "CSS", "Paginação"],
+    "link": "https://github.com/douglasjosebarboza/provedor-de-hospedagem"
+  },
+  {
+    "name": "Clone UI Instagram",
+    "image": "/clone-ui-instagram.png",
+    "tags": ["HTML",  "CSS"],
+    "link": "https://github.com/douglasjosebarboza/UI-Instagram"
+  }
+]

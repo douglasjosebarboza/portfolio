@@ -1,19 +1,21 @@
 import Image from 'next/image'
-import Spans from './Spans'
+import Spans from './Tags'
 
 export default function Project({
   src,
   name,
-  spans,
+  tags,
+  link,
 }: {
   src: string
   name: string
-  spans: string[]
+  tags: string[]
+  link: string
 }) {
   return (
     <a
       className="group flex w-full flex-col items-center gap-y-3 overflow-hidden rounded-md border border-solid border-[var(--background-body)] pb-3"
-      href="#"
+      href={link}
       target="_blank"
     >
       <picture className="h-56 w-full overflow-hidden">
@@ -28,7 +30,7 @@ export default function Project({
       <strong className="px-5 text-center text-base font-semibold text-[var(--secondary)] transition-all group-hover:text-[var(--link)]">
         {name}
       </strong>
-      <Spans spans={spans} />
+      <Spans tags={tags} />
     </a>
   )
 }
