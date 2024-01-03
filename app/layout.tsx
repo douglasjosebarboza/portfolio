@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description:
       'Olá, meu nome é Douglas, estou cursando bacharelado em Ciência da Computação na Universidade Federal de São João del Rei. Sou entusiasta do universo da programação, buscando constantemente aprimorar meus conhecimentos, especialmente em tecnologias de frontend.',
     images: {
-      url: '/portfolio.png',
+      url: 'https://imgur.com/D8H8Rd9',
     },
   },
   twitter: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       'Olá, meu nome é Douglas, estou cursando bacharelado em Ciência da Computação na Universidade Federal de São João del Rei. Sou entusiasta do universo da programação, buscando constantemente aprimorar meus conhecimentos, especialmente em tecnologias de frontend.',
     images: {
-      url: '/portfolio.png',
+      url: 'https://imgur.com/D8H8Rd9',
     },
   },
 }
