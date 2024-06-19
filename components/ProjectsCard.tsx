@@ -1,6 +1,6 @@
 import Subtitle from '@/components/Subtitle'
 import Project from './Project'
-import Projects from '@/database/projects.json'
+import Projects from '@/utils/projects.json'
 
 export default function ProjectsCard() {
   const data = Projects
