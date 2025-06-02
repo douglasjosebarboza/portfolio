@@ -27,7 +27,6 @@ export default function UserCard() {
       <div className="mt-6 flex gap-x-2">
         <GithubAnchor />
         <LinkedinAnchor />
-        <InstagramAnchor />
       </div>
     </section>
   )
